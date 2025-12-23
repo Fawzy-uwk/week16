@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap');
+@import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f2ee;
+    font-family: cursive;
+}
+
+h2 {
+    font-family: Pacifico, cursive;
+
+}
