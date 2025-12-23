@@ -9,6 +9,7 @@ const Home = () => {
 
     return (
         <Layout>
+            <div className="home">
             <h1 className="text-3xl font-bold text-orange-500 mb-6">
                 Learn, Cook, Eat Your Food
             </h1>
@@ -30,6 +31,7 @@ const Home = () => {
                     ))}
                 </div>
             )}
+            </div>
         </Layout>
     );
 };

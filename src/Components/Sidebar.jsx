@@ -9,7 +9,7 @@ const Sidebar = ({ onClose }) => {
     const inactive = "hover:bg-gray-100 text-gray-700";
 
     return (
-        <aside className="w-64 min-h-screen bg-white p-6">
+        <aside className="w-55 min-h-screen bg-white p-6 fixed z-5">
             <div className="text-2xl font-bold text-orange-500 mb-8">
                 Recipe
             </div>

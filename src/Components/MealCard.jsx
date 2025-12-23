@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const MealCard = ({ image, title, area,id }) => {
     return (
-        <div className="meal text-center hover:shadow-xl group  hover:scale-105 duration-300 transition-all bg-white p-12 pb-4  rounded-[35px]">
+        <div className="meal w-fit text-center hover:shadow-xl group  hover:scale-105 duration-300 transition-all bg-white p-12 pb-4  rounded-[35px]">
             <img
                 src={image}
                 alt={title}
