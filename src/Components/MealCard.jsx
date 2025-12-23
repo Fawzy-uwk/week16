@@ -6,7 +6,7 @@ const MealCard = ({ image, title, area,id }) => {
             <img
                 src={image}
                 alt={title}
-                className="w-40 h-40 group-hover:rotate-360 mx-auto duration-700 transition-all rounded-full drop-shadow-xl  -translate-y-22  shadow-2xl"
+                className=" group-hover:rotate-360 mx-auto duration-700 transition-all rounded-full drop-shadow-xl  -translate-y-22  shadow-2xl"
             />
 
             <div className="-mt-15">
@@ -15,7 +15,7 @@ const MealCard = ({ image, title, area,id }) => {
 
                 <Link
                     to={`/meal/${id}`}
-                    className="inline-block bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600"
+                    className="inline-block bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 text-nowrap"
                 >
                     View Recipe
                 </Link>
